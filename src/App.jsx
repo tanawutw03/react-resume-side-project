@@ -1,8 +1,19 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomPage";
+import { Link } from "react-router-dom";
 
-const NoMatch = () => <h1 className="text-4xl">Page Not Found.</h1>;
+const NoMatch = () => {
+  return (
+    <>
+      <h1 className="text-4xl text-black">Page Not Found.</h1>
+      <br />
+      <p className="text-2xl">
+        <Link to="/">Back to homepage.</Link>
+      </p>
+    </>
+  );
+};
 
 function App() {
   return (
