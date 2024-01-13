@@ -20,7 +20,7 @@ function SectionOne() {
         </div>
         <div className="border">
           <img
-            src="/src/assets/SectionOneImage.jpeg"
+            src="/SectionOneImage.jpeg"
             alt="profile image"
             className="w-[700px] h-full object-contain"
           />
